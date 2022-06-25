@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Storm Clouds 4
+  m_Shader: {fileID: 4800000, guid: 0839152f40ae6b347b50f79fbfa57d90, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Clouds:
+        m_Texture: {fileID: 2800000, guid: ef39d90d98c4fca40a59bf4b42ae3173, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: cdcb76e8e4f064c46a57fef63af57c91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: cbfa418e913a0f540ad0bca3afee56c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: cbfa418e913a0f540ad0bca3afee56c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stars:
+        m_Texture: {fileID: 2800000, guid: ea4c21a44f3659140b47aacd1eb82b8c, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 2800000, guid: 9847ae262cb15ac4a8b904e53471fcea, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 63313a7b98baf3542a8275cca1a656b3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _CloudsPower: 1
+    - _CloudsRemapMax: 0.469
+    - _CloudsRemapMin: 0.19
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistortNoise: 0.05
+    - _DistortNoiseBlend: 0.04
+    - _DistortNoisePower: 1
+    - _DistortNoiseRemapMax: 1
+    - _DistortNoiseRemapMin: 0
+    - _DstBlend: 0
+    - _Float0: 0.222
+    - _Float1: 0.365
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseBlend: 0.029
+    - _NoiseMaskPower: 0.05
+    - _NoiseMaskRemapMax: 1
+    - _NoiseMaskRemapMin: 0
+    - _NoisePower: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RadialMaskPower: 2.04
+    - _RadialMaskRemapMax: 0.934
+    - _RadialMaskRemapMin: 0.155
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _StarMaskDistortNoiseBlend: 0.04
+    - _StarMaskDistortNoisePower: 1
+    - _StarsNoiseMaskBlend: 1
+    - _StarsNoiseMaskPower: 1
+    - _StarsNoiseMaskRemapMax: 0.713
+    - _StarsNoiseMaskRemapMin: 0.136
+    - _TexturePower: 0.67
+    - _TextureRemapMax: 0.41
+    - _TextureRemapMin: 0.095
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _CloudTextureScroll: {r: 0.04, g: 0.04, b: 0, a: 0}
+    - _CloudTextureTiling: {r: 2, g: 2, b: 0, a: 0}
+    - _CloudsColour: {r: 2.670157, g: 2.168925, b: 1.6793439, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 1, b: 1, a: 1}
+    - _Colour: {r: 0.7068825, g: 0.8619239, b: 1.7561616, a: 1}
+    - _DistortNoiseScroll: {r: -0.05, g: -0.05, b: 0, a: 0}
+    - _DistortNoiseScrolling: {r: -0.01, g: -0.04, b: 0, a: 0}
+    - _DistortNoiseTiling: {r: 2, g: 2, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NoiseMaskScrolling: {r: -0.04, g: 0.04, b: 0, a: 0}
+    - _NoiseMaskTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _NoiseScroll: {r: -0.05, g: -0.05, b: 0, a: 0}
+    - _StarColour: {r: 1.9971794, g: 6.467057, b: 12.648803, a: 1}
+    - _StarMaskDistortNoiseScroll: {r: -0.05, g: -0.05, b: 0, a: 0}
+    - _StarMaskNoiseTiling: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _StarScroll: {r: -0.01, g: -0.02, b: 0, a: 0}
+    - _StarsColour: {r: 13.546452, g: 42.82427, b: 83.46362, a: 1}
+    - _StarsNoiseMaskScroll: {r: -0.04, g: -0.02, b: 0, a: 0}
+    - _StarsNoiseMaskTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _StarsScroll: {r: -0.01, g: -0.02, b: 0, a: 0}
+    - _TextureScroll: {r: 0.04, g: 0.02, b: 0, a: 0}
+    - _TextureTiling: {r: 2, g: 2, b: 0, a: 0}
+  m_BuildTextureStacks: []
